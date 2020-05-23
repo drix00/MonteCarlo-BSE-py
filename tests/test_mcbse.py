@@ -25,12 +25,14 @@ Tests for the :py:mod:`module_name` module.
 ###############################################################################
 
 # Standard library modules.
+import os.path
 
 # Third party modules.
 
 # Local modules.
 
 # Project modules.
+from mcbse import get_current_module_path
 
 # Globals and constants variables.
 
@@ -42,3 +44,9 @@ def test_is_discovered():
     """
     # assert False
     assert True
+
+
+def test_get_current_module_path():
+    path = get_current_module_path(__file__, "../test_data")
+
+    assert os.path.isdir(path) is True

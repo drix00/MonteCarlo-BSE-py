@@ -9,7 +9,6 @@ A Pytest local plugin for testing the mcbse.
 """
 
 # Standard library modules.
-import os.path
 
 # Third party modules.
 import pytest
@@ -17,7 +16,6 @@ import pytest
 # Local modules.
 
 # Project modules.
-from mcbse import get_current_module_path
 
 # Globals and constants variables.
 
