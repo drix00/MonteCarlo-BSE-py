@@ -104,8 +104,8 @@ check the code style:
 
 .. code-block:: console
 
+    $ flake8 .
     $ pycodestyle .
-    $ pyflakes .
 
 
 To do
