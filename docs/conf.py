@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -31,11 +31,15 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ["sphinx.ext.autodoc",
-              "sphinx.ext.duration",
               "sphinx.ext.mathjax",
               "sphinx.ext.todo",
               "sphinx.ext.viewcode"
               ]
+
+# Fix Read the Docs version problem.
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+if not on_rtd:
+    extensions.append("sphinx.ext.duration")
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
