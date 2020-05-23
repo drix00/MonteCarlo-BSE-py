@@ -21,8 +21,8 @@ Monte Carlo simulation of backscattered electron (BSE) in a SEM.
         |
 
 
-.. |docs| image:: https://readthedocs.org/projects/MonteCarlo-BSE-py/badge/?version=latest
-    :target: https://MonteCarlo-BSE-py.readthedocs.io/en/latest/?badge=latest
+.. |docs| image:: https://readthedocs.org/projects/montecarlo-bse-py/badge/?version=latest
+    :target: https://montecarlo-bse-py.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 .. |travis| image:: https://travis-ci.org/drix00/MonteCarlo-BSE-py.svg?branch=master
