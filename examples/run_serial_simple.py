@@ -236,7 +236,7 @@ def simulate_densities(suffix):
             row.append(simulation.elapse_time_s)
             rows.append(row)
 
-        file_name = "simulate_densities" + suffix + ".csv"
+    file_name = "simulate_densities" + suffix + ".csv"
     with open(file_name, 'w') as output_file:
         writer = csv.writer(output_file)
         writer.writerows(rows)
