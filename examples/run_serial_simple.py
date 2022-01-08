@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-.. py:currentmodule:: module_name
+.. py:currentmodule:: run_serial_simple
 .. moduleauthor:: Hendrix Demers <hendrix.demers@mail.mcgill.ca>
 
-Description
+Run the sets of simulations on the serial and simple program.
 """
 
 ###############################################################################
